@@ -318,7 +318,7 @@ kaiwudrl/conf/kaiwudrl/learner.toml
 
 ### 解决方式
 
-我给 [train_test.py](/Users/foundtt/my_cow_horse/code/train_test.py:20) 加了容器回退逻辑：
+我给 [train_test.py](../train_test.py) 加了容器回退逻辑：
 
 - 如果容器内存在 `/data/projects/gorge_chase/kaiwudrl/conf/kaiwudrl/learner.toml`
 - 就优先用这个绝对路径
